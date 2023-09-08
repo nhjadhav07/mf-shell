@@ -8,7 +8,7 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         type: 'module',
-        remoteEntry: 'http://localhost:4201/remoteEntry.js',
+        remoteEntry: 'https://nhjadhav07.github.io/mf-app/remoteEntry.js',
         exposedModule: './Component'
       })
       .then(m => m.App1Component)
@@ -18,7 +18,7 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         type: 'module',
-        remoteEntry: 'http://localhost:4201/remoteEntry.js',
+        remoteEntry: 'https://nhjadhav07.github.io/mf-app/remoteEntry.js',
         exposedModule: './Module'
       })
       .then(m => m.AppModule)
@@ -28,7 +28,7 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         type: 'module',
-        remoteEntry: 'http://localhost:4201/remoteEntry.js',
+        remoteEntry: 'https://nhjadhav07.github.io/mf-app/remoteEntry.js',
         exposedModule: './MainModule'
       })
       .then(m => m.MainModule)
